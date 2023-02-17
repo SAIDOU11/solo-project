@@ -1,2 +1,2 @@
-# solo-project
+# Solo-project
 Scrimba solo project 
