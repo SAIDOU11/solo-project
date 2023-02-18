@@ -1,17 +1,27 @@
-let firstCard = 10;
-let secondCard = 15;
-let sum = firstCard + secondCard;
+console.log(4 === 3); // false
+console.log(5 > 2); // true
+console.log(12 > 12); // false
+console.log(3 < 0); // false
+console.log(3 >= 3); // true
+console.log(11 <= 11); // true
+console.log(3 <= 2); // false
 
-// Write the conditional according to these rules:
+// let firstCard = 10;
+// let secondCard = 15;
+// let sum = firstCard + secondCard;
+// let hasBlackJack = false;
+// let isAlive = true;
 
-if (sum <= 20) {
-  console.log("Do you want to draw a new card? 🙂");
-} else if (sum === 21) {
-  console.log("Wohoo! You've got Blackjack! 🥳");
-} else {
-  console.log("You're out of the game! 😭");
-}
+// if (sum <= 20) {
+//   console.log("Do you want to draw a new card? 🙂");
+// } else if (sum === 21) {
+//   console.log("Wohoo! You've got Blackjack! 🥳");
+//   hasBlackJack = true;
+// } else {
+//   console.log("You're out of the game! 😭");
+//   isAlive = false;
+// }
 
-// if less than or equal to 20 -> "Do you want to draw a new card? 🙂"
-// else if exactly 21 -> "Wohoo! You've got Blackjack! 🥳"
-// else -> "You're out of the game! 😭"
+// // CASH OUT!
+
+// console.log(isAlive);
